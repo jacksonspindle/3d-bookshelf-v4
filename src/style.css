@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    color: white;
+    background-color: #101010;
+}
+
+/* .datadump{
+    color: white;
+    position: absolute;
+    z-index: 110;
+} */
+
+.search-bar{
+    width: 80%;
+    height: 3rem;
+    background-color: #707070;
+    border: none;
+    margin-top: 3rem;
+    padding: 0%;
+    font-size: 30px;
+    font-family: 'Orbitron', sans-serif;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 8px;
+    /* position: absolute; */
+    z-index: 100;
+    
+}
+
+.search-bar::placeholder {
+    color: #111111;
+    color: rgba(0, 0, 0, .5);
+    padding-left: 1px;
+}
+
+.search-bar-container{
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    /* background-color: rebeccapurple; */
+    flex-direction: column;
+
+}
+
+.search-bar-div{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+   
+
+}
+
+
+
+.search-contents-div{
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    top: 7rem;
+    transition: visibility 0s, opacity 0.5s linear;
+    opacity: 0;
+
+}
+
+.search-button {
+    width: 50px;
+    height: 50px;
+    /* position: absolute; */
+    margin-top: 2.9rem;
+    border-radius: 1rem;
+    margin-left: .5rem;
+    border: none;
+    background-color: #707070;
+    cursor: pointer;
+
+}
+
+
+/* 
+CANVAS */
+
+.canvas{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+
+
+}
+
+/* .button{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+} */
+
+
+.book-info-container{
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    left: 30px;
+
+}
+
+.book-info{
+    color: white;
+
+}
+
+.book-cover{
+    width: 80px;
+}
+
+.canvas-book-cover{
+    width: 20px;
+}
+
+
+.assembled-book-spine {
+    width: 130px;
+    background-color: black;
+
+}
+
+.assembled-book-spine > h1{
+    color: red;
+    font-size: 13px;
+    text-align: center;
+
+}
+
+.book-pages-image{
+    width: 120px;
+}
